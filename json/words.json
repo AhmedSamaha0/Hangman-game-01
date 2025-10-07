@@ -61,7 +61,6 @@
 {"word":"rocket","hint":"It is used to travel to space"},
 {"word":"sailor","hint":"It is a person who works on a ship"},
 {"word":"trophy","hint":"It is a prize given to someone who wins"},
-{"word":"cursor","hint":"It is the moving arrow on a computer screen"},
 {"word":"quiver","hint":"It is a container used to hold arrows"},
 {"word":"orbit","hint":"It is the path an object follows around another"},
 {"word":"cipher","hint":"It is a secret code for messages"},
@@ -146,3 +145,4 @@
 {"word":"fluent","hint":"It means able to speak easily"},
 {"word":"bricks","hint":"They are blocks used for building"}
 ]
+
