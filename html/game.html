@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styleGame.css">
+    <link rel="icon" href="data:,">
+    <title>Hangman</title>
+</head>
+<body>
+    <audio id="new-level" src="../sound effects/collect-5930.mp3" preload="auto" hidden></audio>
+    <div class="open-options">
+        <i class="fa-solid fa-sliders"></i>
+    </div>
+    <div class="options">
+        <div class="content">
+            <div class="logo">
+                <h3>Hangman <img src="../images/hangman.png" alt=""></h3>
+            </div>
+            <div class="resume">
+                <p>Resume <i class="fa-solid fa-play"></i></p>
+            </div>
+            <div class="sound">
+                <p>Sound <i class="fa-solid fa-volume-high"></i></p>
+            </div>
+            <div class="exit">
+                <p>Quit <i class="fa-solid fa-right-from-bracket"></i></p>
+            </div>
+        </div>
+    </div>
+    <div class="score">
+        <p class="points">Score <span>0</span></p>
+        <p class="streak">Streak <span>0</span></p>
+        <p class="count-hints">
+            <i class="fa-solid fa-lightbulb"></i> 
+            <span>0</span>
+            <span class="add-hint">
+                <i class="fa-solid fa-circle-plus"></i>
+            </span>
+        </p>
+    </div>
+    <div class="container-fluid">
+        <div class="hangman">
+            <div class="pace-1"></div>
+            <div class="pace-2"></div>
+            <div class="pace-3"></div>
+            <div class="pace-4"></div>
+            <div class="pace-5"></div>
+            <div class="pace-6"><img src="../images/e223a376-acc4-4d6b-a8f5-1c39c4faf834.png" alt=""></div>
+        </div>
+        <div class="game-area">
+            <div class="descrpition">
+                <h4></h4>
+            </div>
+            <div class="word">
+            </div>
+            <div class="inputs">
+            </div>
+            <div class="hint">
+                <button>Hint</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/all.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
